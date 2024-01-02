@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>capsule</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="capsule-icon">
+      <div class="casule_content">
+        <div class="slash_text_wrapper">
+          <span class="slash"></span>
+        </div>
+        <div class="capsule">
+          <img src="img/main-capsule.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="broken-capsule remove-from-site">
+      <div class="casule_content">
+        <div class="slash_text_wrapper">
+          <span class="slash"></span>
+          <p class="capsule_title_text">Your Way To Be Healthy</p>
+        </div>
+        <div class="broken-capsule-item">
+          <img src="img/broken-capsule.png" alt="" class="broken-capsule_image" />
+        </div>
+        <div class="items_blocks_wrapper">
+          <div class="block_wrapper">
+            <div class="block_item fst">
+              <img src="img/pic1.png" alt="picture1" class="block_item_picture" />
+              <p class="block_item_text">The Biggest Health and Wellness Community</p>
+              <p class="hover_to_read">Hover to Read</p>
+              <p class="appear_text">
+                Valhalla Vitality is a concierge holistic wellness provider network dedicated to
+                giving patients convenient access to integrative and holistic medical treatment.
+              </p>
+            </div>
+            <div class="block_item snd">
+              <img src="img/pic2.png" alt="picture1" class="block_item_picture" />
+              <p class="block_item_text">Professional Online Consultation</p>
+              <p class="hover_to_read">Hover to Read</p>
+              <p class="appear_text">
+                Valhalla Vitality is a concierge holistic wellness provider network dedicated to
+                giving patients convenient access to integrative and holistic medical treatment.
+              </p>
+            </div>
+            <div class="block_item trd">
+              <img src="img/pic3.png" alt="picture1" class="block_item_picture" />
+              <p class="block_item_text">Exceptional Health Services</p>
+              <p class="hover_to_read">Hover to Read</p>
+              <p class="appear_text">
+                Valhalla Vitality is a concierge holistic wellness provider network dedicated to
+                giving patients convenient access to integrative and holistic medical treatment.
+              </p>
+            </div>
+          </div>
+          <div class="block_wrapper">
+            <div class="block_item fst_r">
+              <img src="img/pic4.png" alt="picture1" class="block_item_picture" />
+              <p class="block_item_text">Individualized Treatment Plans</p>
+              <p class="hover_to_read">Hover to Read</p>
+              <p class="appear_text">
+                Valhalla Vitality is a concierge holistic wellness provider network dedicated to
+                giving patients convenient access to integrative and holistic medical treatment.
+              </p>
+            </div>
+            <div class="block_item snd_r">
+              <img src="img/pic5.png" alt="picture1" class="block_item_picture" />
+              <p class="block_item_text">Direct Access to Therapy Pricing</p>
+              <p class="hover_to_read">Hover to Read</p>
+
+              <p class="appear_text">
+                Valhalla Vitality is a concierge holistic wellness provider network dedicated to
+                giving patients convenient access to integrative and holistic medical treatment.
+              </p>
+            </div>
+            <div class="block_item trd_r">
+              <img src="img/pic6.png" alt="picture1" class="block_item_picture" />
+              <p class="block_item_text">Exclusive Prices For Subscribers</p>
+              <p class="hover_to_read">Hover to Read</p>
+              <p class="appear_text">
+                Valhalla Vitality is a concierge holistic wellness provider network dedicated to
+                giving patients convenient access to integrative and holistic medical treatment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script>
+    let capsule = document.querySelector('.capsule-icon');
+    let brokenCapsule = document.querySelector('.broken-capsule');
+    capsule.addEventListener('click', () => {
+      capsule.classList.add('fade-off');
+      setTimeout(deleteItem, 200);
+    });
+    function deleteItem() {
+      capsule.classList.add('remove-from-site');
+      brokenCapsule.classList.remove('remove-from-site');
+      brokenCapsule.classList.add('show-on-site');
+    }
+  </script>
+</html>
+<style></style>
