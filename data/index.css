@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500;700&display=swap');
 
 .body {
   height: 750px;
@@ -203,3 +203,146 @@
 .block_item:hover .hover_to_read {
   display: none;
 }
+.pc_remove {
+  display: none;
+}
+@media (max-width: 1300px) {
+  .broken-capsule_image {
+    width: 500px;
+    height: 500px;
+  }
+  .broken-capsule-item {
+    left: 320px;
+    top: 150px;
+  }
+  .fst,
+  .snd,
+  .trd {
+    left: 20px;
+  }
+  .fst_r,
+  .snd_r,
+  .trd_r {
+    right: 20px;
+  }
+  .capsule-icon {
+    max-width: 1200px;
+    width: 100%;
+  }
+}
+@media (max-width: 1170px) {
+  .remove-from-site {
+    display: block;
+  }
+  .mob_remove {
+    display: none;
+  }
+  .broken-capsule-item {
+    display: none;
+  }
+  .text_wrap {
+    width: auto;
+  }
+  .fst,
+  .snd,
+  .trd {
+    left: 40px;
+  }
+  .fst_r,
+  .snd_r,
+  .trd_r {
+    right: 40px;
+  }
+  .pc_remove {
+    display: block;
+  }
+}
+@media (max-width: 830px) {
+  .block_item {
+    width: 300px;
+  }
+  .block_item_picture {
+    width: 252px;
+  }
+  .block_item_text {
+    width: 210px;
+    font-size: 18px;
+  }
+  .hover_to_read {
+    font-size: 14px;
+  }
+  .appear_text {
+    font-size: 16px;
+  }
+}
+@media (max-width: 740px) {
+  .fst,
+  .snd,
+  .trd {
+    left: 20px;
+  }
+  .fst_r,
+  .snd_r,
+  .trd_r {
+    right: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .items_blocks_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .block_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .fst,
+  .snd,
+  .trd {
+    position: static;
+  }
+  .fst_r,
+  .snd_r,
+  .trd_r {
+    position: static;
+  }
+  .fst {
+    transform: rotate(-3.18deg);
+  }
+  .snd {
+    transform: rotate(2.8deg);
+  }
+  .trd {
+    transform: rotate(-3.41deg);
+  }
+
+  .fst_r {
+    transform: rotate(2.8deg);
+  }
+  .snd_r {
+    transform: rotate(-1.41deg);
+  }
+  .trd_r {
+    transform: rotate(2.82deg);
+  }
+}
+@media (max-width: 512px) {
+  .slash_text_wrapper {
+    gap: 10px;
+    padding-left: 20px;
+  }
+  .slash {
+    height: 52px;
+  }
+  .text_wrap {
+    width: 150px;
+  }
+  .capsule_title_text {
+    white-space: wrap;
+    font-size: 22px;
+  }
+} */
